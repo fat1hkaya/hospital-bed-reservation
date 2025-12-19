@@ -29,4 +29,6 @@ public class Patient{
     public String getTcNo(){
         return tcNo;
     }
+    @Override
+    public String toString() { return name +" " +surname + ":  " + tcNo ; }
 }

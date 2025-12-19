@@ -1,7 +1,5 @@
 package com.hospital.model;
 
 public enum BedStatus{
-    EMPTY,
-    OCCUPIED,
-    MAINTENANCE
+    EMPTY, FULL, RESERVED, CLEANING
 }

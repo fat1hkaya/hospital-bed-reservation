@@ -33,4 +33,6 @@ public class Bed {
     public void setStatus(BedStatus status){
         this.status = status;
     }
+    @Override
+    public String toString() { return "Oda: "+ roomNo +" Yatak: " + bedNo; }
 }

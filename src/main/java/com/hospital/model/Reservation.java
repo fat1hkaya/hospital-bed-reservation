@@ -38,4 +38,9 @@ public class Reservation{
     public LocalDate getEndDate(){
         return endDate;
     }
+    @Override
+    public String toString() {
+        return patient.getName() + ": " +bed.getRoomNo()+" - "+ startDate + " / " + endDate;
+    }
+
 }
